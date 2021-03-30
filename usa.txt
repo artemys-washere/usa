@@ -1,0 +1,137 @@
+pm.test("age_is_0" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "0",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+
+pm.test("age_is_1" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "1",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+pm.test("age_is_20" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+{
+    "age": "20",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+pm.test("age_is_21" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or
+	there is an error in the application.</p>
+
+
+pm.test("age_is_49" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+{
+    "age": "49",
+    "age_type": "adult",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)",
+        "The Matrix 4 (2021)",
+        "Ghostbusters: Afterlife (2021)",
+        "Chaos Walking (2021)",
+        "Eternals (2021)",
+        "Godzilla vs. Kong (2021)",
+        "The Tomorrow War (2021)",
+        "Venom: Let There Be Carnage (2021)",
+        "Black Widow (2021)",
+        "Dune (2021)"
+    ]
+}
+
+
+pm.test("age_is_50" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or
+	there is an error in the application.</p>
+
+
+pm.test("age_is_51" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+{
+    "age": "51",
+    "age_type": "antiquity",
+    "content": [
+        "An American Pickle",
+        "The Lovebirds",
+        "Bill & Ted Face The Music",
+        "The Personal History Of David Copperfield",
+        "Emma",
+        "Happiest Season",
+        "Spontaneous",
+        "Palm Springs"
+    ]
+}
+
+pm.test("age_is_100" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data}); 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or
+	there is an error in the application.</p>
