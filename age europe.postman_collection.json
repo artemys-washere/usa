@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "b21385d6-c541-483d-9137-7f9f81968c91",
+		"name": "age europe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "eur 0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_0\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_1\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 17",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_17\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "17",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 18",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_18\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "18",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 49",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_49\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "49",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe?=",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 50",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_50\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eur 99",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"age_is_99\" , function () {\r",
+							"var jsonData = pm.response.json ();\r",
+							"var req_data = request.data});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "99",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/age_europe",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"age_europe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
